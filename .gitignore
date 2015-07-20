@@ -1,0 +1,3 @@
+transaction/rules_local.py
+*.pyc
+env/*

@@ -1,0 +1,10 @@
+from .matching import Match
+from .rules import rule_list
+
+rule_list.extend([
+    ('voedsel', [
+        Match('Betaalautomaat', withdrawal=True, string_list=[
+            'Hoogvliet',
+        ])
+    ])
+])
