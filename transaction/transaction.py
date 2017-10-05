@@ -88,6 +88,7 @@ class INGTransaction(object):
             'Incasso': 'IC',
             'Overschrijving': 'OV',
             'Verzamelbetaling': 'VZ',
+            'Storting': 'ST',
         }
 
         # Making sure my assumptions are correct.
